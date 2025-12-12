@@ -1,10 +1,12 @@
-# DATA 501: U.S. Housing Market Dynamics (18 Metros)
+# DATA 501: U.S. Housing Market Analysis
+**M.S. Data Science | Dec 2025**
 
-[![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)](https://www.r-project.org/)
+Analyzed house values vs. mortgage delinquency (2002-2011) across 18 U.S. metros.
 
-**Statistical Analysis • 2002-2011**
+**Key Results:**
+- Kruskal-Wallis: χ² = 20,061, p < 2.2e-16
+- SF: β = 26.75 (R² = 0.41) vs LA: β = -5.87 (R² = 0.17)
 
-House values vs. mortgage delinquency/default rates across Phoenix, LA, SF, etc.
+[View Analysis](housing-analysis.html)
 
-## 📈 Results
-**Tech Stack:** R • ggplot2 • car • broom • lmtest • emmeans
+**Tech:** R • tidyverse • emmeans • ggplot2
